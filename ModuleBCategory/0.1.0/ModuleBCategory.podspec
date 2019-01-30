@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ModuleBCategory/Classes/**/*'
+  s.dependency 'CTMediator'
   
   # s.resource_bundles = {
   #   'ModuleBCategory' => ['ModuleBCategory/Assets/*.png']
